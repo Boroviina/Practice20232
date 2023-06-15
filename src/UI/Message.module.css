@@ -1,0 +1,11 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.content button{
+    background-color: red;
+}
+.content p{
+    font-weight: bold;
+}

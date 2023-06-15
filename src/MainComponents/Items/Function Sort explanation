@@ -1,0 +1,5 @@
+we can pass to function sort some another function which have two arg, passed function compare these two args and compare them
+we manage if the logic display ascencing or descending by returning -1 0 1
+These values function sort use to sort items. If the value is less than 0, the item will be placed closer to the start of array
+If the value is 0, there is no moving
+If the value is 1, the item will be placed closer to the end of array.

@@ -1,0 +1,57 @@
+.tablelook table {
+    margin-top: 10rem;
+    padding: 5rem;
+    background: transparent;
+    width: 100%;
+}
+.view{
+    margin: 4rem auto;
+    width: 100%;
+}
+.view tr{
+    height: 5rem;
+    background: #66b2f3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+.view tr th{
+    background: transparent;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.body{
+    box-shadow: 0 2px 8px rgb(53, 200, 241);
+    padding: 1rem;
+    border-color: #66b2f3;
+    width: 100%;
+    background-color: #3f5152;
+}
+.body tr{
+    border-bottom: 2px solid #66b2f3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+}
+.body tr td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    background-color: transparent;
+    white-space: nowrap;
+}
+.body tr td img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 1.5rem ;
+    background: transparent;
+}

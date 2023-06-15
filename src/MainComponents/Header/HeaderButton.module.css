@@ -1,0 +1,32 @@
+.button {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 25px;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.button img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.25rem auto;
+}
+
+.button label {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 576px) {
+    .button img {
+        display: none;
+    }
+}
+

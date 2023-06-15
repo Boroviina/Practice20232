@@ -1,0 +1,41 @@
+.header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8rem;
+    background-color: #43aaf1;
+    padding: 0 10%;
+    color: white;
+    width: 100%;
+    z-index: 10;
+}
+
+.header h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 576px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 6rem;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px ) {
+    .header h1 {
+        font-size: 3rem;
+    }
+
+}
+
+

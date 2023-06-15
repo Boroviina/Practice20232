@@ -1,0 +1,68 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.backdropmessage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 31;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+    position: fixed;
+    top: 20vh;
+    left: 5%;
+    width: 90%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+}
+.crd{
+    background-color: #3f5152;
+    box-shadow: 0 2px 8px rgb(53, 200, 241);
+    border-radius: 10px;
+    padding: 1rem;
+    border-color: #66b2f3;
+}
+.modalmessage {
+    position: fixed;
+    top: 30vh;
+    left: 25%;
+    width: 50%;
+    background-color: #66b2f3;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 35;
+    animation: slide-down 300ms ease-out forwards;
+}
+
+@media (min-width: 768px) {
+    .modal {
+        width: 40rem;
+        left: calc(50% - 20rem);
+    }
+}
+
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

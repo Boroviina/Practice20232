@@ -1,0 +1,7 @@
+Task:
+When I call the Add Result, I should choose two teams and input the score.
+
+Problem: Choosing the Team
+
+
+defaultno stanje: prazni selekti i puna lista, zamisao da kada odaberemo jedan tim sa liste da predjemo na drugi
